@@ -6,7 +6,7 @@ class Ejercicio01Kotlin{
     /* Función Main Test */
     @Test
     fun main(){
-        val result = Anagrama("a", "silent") /* Se llama a la función Anagrama con 2 parametros de texto y el resultado se guarda en la variable result */
+        val result = Anagrama("listen", "silent") /* Se llama a la función Anagrama con 2 parametros de texto y el resultado se guarda en la variable result */
         println(result) /* Imprime el valor en consola */
     }
     private fun Anagrama(text1: String, text2:String): Boolean{
